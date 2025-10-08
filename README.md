@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# 📸 PhotoGallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean and simple **photo gallery web app** to browse and view beautiful images dynamically.  
+Deployed live at 👉 [**PhotoGallery**](https://anuragrajuv.github.io/photogallery/)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Overview
 
-### `npm start`
+PhotoGallery is a responsive web project designed to display images in a sleek grid layout.  
+It’s a lightweight, front-end-only app that demonstrates dynamic image loading and a smooth browsing experience — ideal for photography portfolios or personal showcases.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 📷 Dynamic image loading  
+- 🌐 Infinite scroll for continuous browsing  
+- 🖼️ Responsive grid layout  
+- ⚡ Fast and lightweight — no backend required  
+- 🎨 Clean UI built with modern web standards  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend:** React.js, HTML5, CSS3, JavaScript (ES6)  
+- **Libraries:** [React Infinite Scroll Component](https://www.npmjs.com/package/react-infinite-scroll-component)  
+- **API:** [Picsum Photos API](https://picsum.photos/)  
+- **Hosting:** GitHub Pages  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Setup & Installation
 
-### `npm run eject`
+Follow these steps to run the project locally 👇
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the Repository
+```bash
+git clone https://github.com/anuragrajuv/photogallery.git
+cd photogallery
+2. Install Dependencies
+bash
+Copy code
+npm install
+3. Run the App Locally
+bash
+Copy code
+npm start
+Then open your browser and visit:
+👉 http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Build for Production
+bash
+Copy code
+npm run build
+This creates an optimized build in the build/ directory.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🌍 Deployment
+This project is hosted using GitHub Pages.
+To deploy updates, run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+npm run deploy
+Your latest build will automatically be published at
+🔗 https://anuragrajuv.github.io/photogallery/
 
-## Learn More
+💡 Future Improvements
+Add a search bar for filtering images
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Implement category-based filtering
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Add image download and favorite options
 
-### Code Splitting
+Enable dark mode
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Introduce lazy loading with skeleton UI
 
-### Analyzing the Bundle Size
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Fork the project
 
-### Making a Progressive Web App
+Create your feature branch (git checkout -b feature/amazing-feature)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Commit your changes (git commit -m 'Add amazing feature')
 
-### Advanced Configuration
+Push to the branch (git push origin feature/amazing-feature)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Open a Pull Request
 
-### Deployment
+🧾 License
+This project is licensed under the MIT License — see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🙌 Acknowledgements
+Picsum Photos for the free image API
 
-### `npm run build` fails to minify
+React Infinite Scroll Component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+All open-source developers whose work made this possible 💙
+
+👨‍💻 Author
+Anurag Raju
+🌐 GitHub
+
+“Capturing moments through pixels — in code and in photos.”
