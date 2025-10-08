@@ -39,69 +39,80 @@ Follow these steps to run the project locally 👇
 ```bash
 git clone https://github.com/anuragrajuv/photogallery.git
 cd photogallery
-2. Install Dependencies
-bash
-Copy code
+```
+
+### 2. Install Dependencies
+```bash
 npm install
-3. Run the App Locally
-bash
-Copy code
+```
+
+### 3. Run the App Locally
+```bash
 npm start
-Then open your browser and visit:
-👉 http://localhost:3000
+```
+Then open your browser and visit:  
+👉 `http://localhost:3000`
 
-4. Build for Production
-bash
-Copy code
+### 4. Build for Production
+```bash
 npm run build
-This creates an optimized build in the build/ directory.
+```
+This creates an optimized build in the `build/` directory.
 
-🌍 Deployment
-This project is hosted using GitHub Pages.
+---
+
+## 🌍 Deployment
+
+This project is hosted using **GitHub Pages**.  
 To deploy updates, run:
 
-bash
-Copy code
+```bash
 npm run deploy
-Your latest build will automatically be published at
-🔗 https://anuragrajuv.github.io/photogallery/
+```
+Your latest build will automatically be published at  
+🔗 [https://anuragrajuv.github.io/photogallery/](https://anuragrajuv.github.io/photogallery/)
 
-💡 Future Improvements
-Add a search bar for filtering images
+---
 
-Implement category-based filtering
+## 💡 Future Improvements
 
-Add image download and favorite options
+- Add a **search bar** for filtering images  
+- Implement **category-based filtering**  
+- Add **image download** and **favorite** options  
+- Enable **dark mode**  
+- Introduce **lazy loading with skeleton UI**
 
-Enable dark mode
+---
 
-Introduce lazy loading with skeleton UI
+## 🤝 Contributing
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!  
 
-Fork the project
+1. Fork the project  
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)  
+3. Commit your changes (`git commit -m 'Add amazing feature'`)  
+4. Push to the branch (`git push origin feature/amazing-feature`)  
+5. Open a Pull Request  
 
-Create your feature branch (git checkout -b feature/amazing-feature)
+---
 
-Commit your changes (git commit -m 'Add amazing feature')
+## 🧾 License
 
-Push to the branch (git push origin feature/amazing-feature)
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-Open a Pull Request
+---
 
-🧾 License
-This project is licensed under the MIT License — see the LICENSE file for details.
+## 🙌 Acknowledgements
 
-🙌 Acknowledgements
-Picsum Photos for the free image API
+- [Picsum Photos](https://picsum.photos/) for the free image API  
+- [React Infinite Scroll Component](https://www.npmjs.com/package/react-infinite-scroll-component)  
+- All open-source developers whose work made this possible 💙  
 
-React Infinite Scroll Component
+---
 
-All open-source developers whose work made this possible 💙
+## 👨‍💻 Author
 
-👨‍💻 Author
-Anurag Raju
-🌐 GitHub
+**Anurag Raju**  
+🌐 [GitHub](https://github.com/anuragrajuv)  
 
-“Capturing moments through pixels — in code and in photos.”
+> “Capturing moments through pixels — in code and in photos.”  
